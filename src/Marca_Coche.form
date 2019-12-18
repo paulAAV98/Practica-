@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup2">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Cb_Pais" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel28" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel29" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtModelo" alignment="0" min="-2" pref="208" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jSeparator1" alignment="0" min="-2" pref="1097" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="353" max="-2" attributes="0"/>
+                      <Component id="btnContinuar" min="-2" pref="305" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="29" max="32767" attributes="0"/>
+              <Component id="jScrollBar1" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+              <Component id="jLabel28" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="Cb_Pais" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="txtModelo" min="-2" pref="31" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jPanel2" max="32767" attributes="0"/>
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btnContinuar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="20" max="32767" attributes="0"/>
+          </Group>
+          <Component id="jScrollBar1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="66" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Informaci&#xf3;n sobre tu coche"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel28">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l es la marca de tu coche?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Cb_Pais">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="254">
+            <StringItem index="0" value="ABARTH"/>
+            <StringItem index="1" value="AC"/>
+            <StringItem index="2" value="ACURA"/>
+            <StringItem index="3" value="ADMIRAL"/>
+            <StringItem index="4" value="ALEKO"/>
+            <StringItem index="5" value="ALFA ROMEO"/>
+            <StringItem index="6" value="ALPINA"/>
+            <StringItem index="7" value="ALPINE RENAULT"/>
+            <StringItem index="8" value="ABASSADOR"/>
+            <StringItem index="9" value="AMC"/>
+            <StringItem index="10" value="ANADOL"/>
+            <StringItem index="11" value="ARO"/>
+            <StringItem index="12" value="ASIA"/>
+            <StringItem index="13" value="ASTON MARTIN"/>
+            <StringItem index="14" value="AUDI"/>
+            <StringItem index="15" value="AUTOBIANCHI"/>
+            <StringItem index="16" value="AUVERLAND"/>
+            <StringItem index="17" value="BAIC"/>
+            <StringItem index="18" value="BEDFORD"/>
+            <StringItem index="19" value="BENTLEY"/>
+            <StringItem index="20" value="BERTONE"/>
+            <StringItem index="21" value="BMW"/>
+            <StringItem index="22" value="BOLLORE"/>
+            <StringItem index="23" value="BOOM TRIKES"/>
+            <StringItem index="24" value="BORGWARD"/>
+            <StringItem index="25" value="BOVA"/>
+            <StringItem index="26" value="BRILLIANCE"/>
+            <StringItem index="27" value="BUGATTI"/>
+            <StringItem index="28" value="BUICK"/>
+            <StringItem index="29" value="BYD"/>
+            <StringItem index="30" value="CADILLAC"/>
+            <StringItem index="31" value="CAMPING-CAR"/>
+            <StringItem index="32" value="CARBODIES"/>
+            <StringItem index="33" value="CATERHAM"/>
+            <StringItem index="34" value="CHANA"/>
+            <StringItem index="35" value="CHANGAN"/>
+            <StringItem index="36" value="CHANGFENG"/>
+            <StringItem index="37" value="CHANGHE"/>
+            <StringItem index="38" value="CHERY"/>
+            <StringItem index="39" value="CHEVROLET"/>
+            <StringItem index="40" value="CHRYSLER"/>
+            <StringItem index="41" value="CIMA MOTORS"/>
+            <StringItem index="42" value="CITROEN"/>
+            <StringItem index="43" value="CUPRA"/>
+            <StringItem index="44" value="DACIA"/>
+            <StringItem index="45" value="DADI"/>
+            <StringItem index="46" value="DAEWOO"/>
+            <StringItem index="47" value="DAF"/>
+            <StringItem index="48" value="DAIHATSU"/>
+            <StringItem index="49" value="DAIHATSU VALERA"/>
+            <StringItem index="50" value="DAIMLER"/>
+            <StringItem index="51" value="DATSUN"/>
+            <StringItem index="52" value="DE TOMASSO"/>
+            <StringItem index="53" value="DEL AGE"/>
+            <StringItem index="54" value="DELOREAN"/>
+            <StringItem index="55" value="DERWAYS"/>
+            <StringItem index="56" value="DETHLEFFS"/>
+            <StringItem index="57" value="DODGE"/>
+            <StringItem index="58" value="DONGFENG"/>
+            <StringItem index="59" value="DONINVEST"/>
+            <StringItem index="60" value="DONKERVOORT"/>
+            <StringItem index="61" value="DR"/>
+            <StringItem index="62" value="DS"/>
+            <StringItem index="63" value="EAGLE"/>
+            <StringItem index="64" value="EBRO"/>
+            <StringItem index="65" value="EFFA"/>
+            <StringItem index="66" value="FORD"/>
+            <StringItem index="67" value="FAW"/>
+            <StringItem index="68" value="FERRARI"/>
+            <StringItem index="69" value="FIAT"/>
+            <StringItem index="70" value="FISHER"/>
+            <StringItem index="71" value="FISKER"/>
+            <StringItem index="72" value="FORCE MOTORS"/>
+            <StringItem index="73" value="FOTON"/>
+            <StringItem index="74" value="FSO"/>
+            <StringItem index="75" value="FSO-POLSKI"/>
+            <StringItem index="76" value="FSR"/>
+            <StringItem index="77" value="FUSCA"/>
+            <StringItem index="78" value="GALLOPER"/>
+            <StringItem index="79" value="GAZ"/>
+            <StringItem index="80" value="GEELY"/>
+            <StringItem index="81" value="GENESIS"/>
+            <StringItem index="82" value="GEO"/>
+            <StringItem index="83" value="GEO"/>
+            <StringItem index="84" value="GINETTA"/>
+            <StringItem index="85" value="GM"/>
+            <StringItem index="86" value="GMC"/>
+            <StringItem index="87" value="GME"/>
+            <StringItem index="88" value="GOLDEN DRAGON"/>
+            <StringItem index="89" value="GOLF"/>
+            <StringItem index="90" value="GONOW"/>
+            <StringItem index="91" value="GRANDIN"/>
+            <StringItem index="92" value="GREAT WALL"/>
+            <StringItem index="93" value="GURGEL"/>
+            <StringItem index="94" value="HAFEI"/>
+            <StringItem index="95" value="HAIMA"/>
+            <StringItem index="96" value="HAVAL"/>
+            <StringItem index="97" value="HAWTAI"/>
+            <StringItem index="98" value="HIGER"/>
+            <StringItem index="99" value="HOLDEN"/>
+            <StringItem index="100" value="HOMMEL"/>
+            <StringItem index="101" value="HONDA"/>
+            <StringItem index="102" value="HUANGHAI"/>
+            <StringItem index="103" value="HUMMER"/>
+            <StringItem index="104" value="HYUNDAI"/>
+            <StringItem index="105" value="IMV"/>
+            <StringItem index="106" value="INFINITI"/>
+            <StringItem index="107" value="INNOCENTI"/>
+            <StringItem index="108" value="INTRALL"/>
+            <StringItem index="109" value="IRAN KHODRO"/>
+            <StringItem index="110" value="IRZAR"/>
+            <StringItem index="111" value="ISUZU"/>
+            <StringItem index="112" value="IVECO"/>
+            <StringItem index="113" value="JAC"/>
+            <StringItem index="114" value="JAGUAR"/>
+            <StringItem index="115" value="JEEP"/>
+            <StringItem index="116" value="JMC"/>
+            <StringItem index="117" value="JOINT"/>
+            <StringItem index="118" value="JUNAK"/>
+            <StringItem index="119" value="KIA"/>
+            <StringItem index="120" value="LADA"/>
+            <StringItem index="121" value="LAMBORGHINI"/>
+            <StringItem index="122" value="LANCIA"/>
+            <StringItem index="123" value="LAND ROVER"/>
+            <StringItem index="124" value="LANDWIND"/>
+            <StringItem index="125" value="LANOS"/>
+            <StringItem index="126" value="LDV"/>
+            <StringItem index="127" value="LEXUS"/>
+            <StringItem index="128" value="LEYLAND"/>
+            <StringItem index="129" value="LIFAN"/>
+            <StringItem index="130" value="LIGIER"/>
+            <StringItem index="131" value="LINCOLN"/>
+            <StringItem index="132" value="LOTUS"/>
+            <StringItem index="133" value="LTI"/>
+            <StringItem index="134" value="LUXGEN"/>
+            <StringItem index="135" value="MAGIRUS DEUTZ"/>
+            <StringItem index="136" value="MAHINDRA"/>
+            <StringItem index="137" value="MARCOPOLO"/>
+            <StringItem index="138" value="MARCOS"/>
+            <StringItem index="139" value="MARLIN"/>
+            <StringItem index="140" value="MARUTI"/>
+            <StringItem index="141" value="MASERATI"/>
+            <StringItem index="142" value="MATRA"/>
+            <StringItem index="143" value="MAYBACH"/>
+            <StringItem index="144" value="MAZDA"/>
+            <StringItem index="145" value="MCC"/>
+            <StringItem index="146" value="MCLAREN"/>
+            <StringItem index="147" value="MEGA"/>
+            <StringItem index="148" value="MERCEDES"/>
+            <StringItem index="149" value="MERCEDES AMG"/>
+            <StringItem index="150" value="MERCEDES-BENZ"/>
+            <StringItem index="151" value="MERCURY"/>
+            <StringItem index="152" value="MG"/>
+            <StringItem index="153" value="MIA"/>
+            <StringItem index="154" value="MICRO COMPACT CAR"/>
+            <StringItem index="155" value="MICRO CAR"/>
+            <StringItem index="156" value="MINAUTO"/>
+            <StringItem index="157" value="MINI"/>
+            <StringItem index="158" value="MITSUBISHI"/>
+            <StringItem index="159" value="MITSUOKA"/>
+            <StringItem index="160" value="MIURA"/>
+            <StringItem index="161" value="MORGAN"/>
+            <StringItem index="162" value="NEOPLAN"/>
+            <StringItem index="163" value="NISSAN"/>
+            <StringItem index="164" value="NYSA"/>
+            <StringItem index="165" value="OLDSMOBILE"/>
+            <StringItem index="166" value="OPEL"/>
+            <StringItem index="167" value="OTOKAR"/>
+            <StringItem index="168" value="PEUGEOT"/>
+            <StringItem index="169" value="PAGANI"/>
+            <StringItem index="170" value="PANHARD"/>
+            <StringItem index="171" value="PANOZ"/>
+            <StringItem index="172" value="PANTHER"/>
+            <StringItem index="173" value="PERODUA"/>
+            <StringItem index="174" value="PGO"/>
+            <StringItem index="175" value="PLYMOUTH"/>
+            <StringItem index="176" value="POLONEZ"/>
+            <StringItem index="177" value="PONTIAC"/>
+            <StringItem index="178" value="PORSCHE"/>
+            <StringItem index="179" value="PROTON"/>
+            <StringItem index="180" value="P&#xd6;SSL"/>
+            <StringItem index="181" value="QOROS"/>
+            <StringItem index="182" value="QUANTUM"/>
+            <StringItem index="183" value="RENAULT"/>
+            <StringItem index="184" value="RANGE ROVER"/>
+            <StringItem index="185" value="RAVON"/>
+            <StringItem index="186" value="RELLIANT"/>
+            <StringItem index="187" value="ROEWE"/>
+            <StringItem index="188" value="ROLLS-ROYCE"/>
+            <StringItem index="189" value="ROVER"/>
+            <StringItem index="190" value="SEAT"/>
+            <StringItem index="191" value="SAAB"/>
+            <StringItem index="192" value="SAIPA"/>
+            <StringItem index="193" value="SALEEN"/>
+            <StringItem index="194" value="SAMAND"/>
+            <StringItem index="195" value="SAMSUNG"/>
+            <StringItem index="196" value="SANTANA"/>
+            <StringItem index="197" value="SATURN"/>
+            <StringItem index="198" value="SCANIA"/>
+            <StringItem index="199" value="SCION"/>
+            <StringItem index="200" value="SETRA"/>
+            <StringItem index="201" value="SHINERAY"/>
+            <StringItem index="202" value="SHUANGHUAN"/>
+            <StringItem index="203" value="SIMCA"/>
+            <StringItem index="204" value="SIN"/>
+            <StringItem index="205" value="SKODA"/>
+            <StringItem index="206" value="SMA"/>
+            <StringItem index="207" value="SMART"/>
+            <StringItem index="208" value="SPYKER"/>
+            <StringItem index="209" value="SSANGYONG"/>
+            <StringItem index="210" value="SUBARU"/>
+            <StringItem index="211" value="SUNBEAM"/>
+            <StringItem index="212" value="SUV LEXUX"/>
+            <StringItem index="213" value="SUZUKI"/>
+            <StringItem index="214" value="SYRENA"/>
+            <StringItem index="215" value="TAGAZ"/>
+            <StringItem index="216" value="TAGAZ VEGA"/>
+            <StringItem index="217" value="TALBOT"/>
+            <StringItem index="218" value="TATA"/>
+            <StringItem index="219" value="TATRA"/>
+            <StringItem index="220" value="TAZZARI"/>
+            <StringItem index="221" value="TESLA"/>
+            <StringItem index="222" value="THINK"/>
+            <StringItem index="223" value="TIANMA"/>
+            <StringItem index="224" value="TIANYE"/>
+            <StringItem index="225" value="TOFAS"/>
+            <StringItem index="226" value="TOYOTA"/>
+            <StringItem index="227" value="TRABANT"/>
+            <StringItem index="228" value="TRIUMPH"/>
+            <StringItem index="229" value="TROLLER"/>
+            <StringItem index="230" value="TVR"/>
+            <StringItem index="231" value="TWIKE"/>
+            <StringItem index="232" value="UMM"/>
+            <StringItem index="233" value="VOLKSWAGEN"/>
+            <StringItem index="234" value="VAN HOOL"/>
+            <StringItem index="235" value="VAUXHALL"/>
+            <StringItem index="236" value="VDL BOVA"/>
+            <StringItem index="237" value="VENTURI"/>
+            <StringItem index="238" value="VOLVO"/>
+            <StringItem index="239" value="VORTEX"/>
+            <StringItem index="240" value="WARSZAWA"/>
+            <StringItem index="241" value="WARTBURG"/>
+            <StringItem index="242" value="WIESMAN"/>
+            <StringItem index="243" value="WILLYS"/>
+            <StringItem index="244" value="XIN KAI"/>
+            <StringItem index="245" value="YOGOMO"/>
+            <StringItem index="246" value="YUTONG"/>
+            <StringItem index="247" value="YZK"/>
+            <StringItem index="248" value="ZASTAVA"/>
+            <StringItem index="249" value="ZAZ"/>
+            <StringItem index="250" value="ZHONG TONG"/>
+            <StringItem index="251" value="ZOTYE"/>
+            <StringItem index="252" value="ZX"/>
+            <StringItem index="253" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel29">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xbf;Qu&#xe9; modelo?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtModelo">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtModeloActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnContinuar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CONTINUAR"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnContinuarActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel5" alignment="0" min="-2" pref="206" max="-2" attributes="0"/>
+                      <Component id="jLabel7" alignment="0" min="-2" pref="206" max="-2" attributes="0"/>
+                      <Component id="jLabel8" alignment="0" min="-2" pref="206" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel2" min="-2" pref="206" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="Rb_Compacto" min="-2" pref="20" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel3" alignment="0" min="-2" pref="206" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" alignment="0" min="-2" pref="206" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Rb_Descapotable" min="-2" pref="20" max="-2" attributes="0"/>
+                                  <Component id="Rb_Sedan" min="-2" pref="20" max="-2" attributes="0"/>
+                                  <Component id="Rb_Familiar" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                                  <Component id="Rb_Todoterreno" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                                  <Component id="Rb_Familiar2" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                                  <Component id="Rb_Mini_fur" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                                  <Component id="Rb_Furgoneta" alignment="0" min="-2" pref="18" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Component id="jLabel10" alignment="0" min="-2" pref="206" max="-2" attributes="0"/>
+                      <Component id="jLabel9" alignment="0" min="-2" pref="206" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="130" pref="140" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel2" min="-2" pref="25" max="-2" attributes="0"/>
+                                      <Component id="Rb_Compacto" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLabel3" min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Component id="Rb_Sedan" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLabel4" min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Component id="Rb_Descapotable" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" min="-2" pref="24" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="Rb_Familiar" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel7" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="Rb_Todoterreno" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="jLabel8" min="-2" pref="26" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="Rb_Familiar2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel9" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                      <Component id="Rb_Mini_fur" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel10" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                      <Component id="Rb_Furgoneta" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#xbf;Qu&#xe9; tipo de coche tienes?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Copacto.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Sedan.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Descapotable.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Familiar.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Todoterreno.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Familiar 2.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Mini furgoneta.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="jLabel9"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Furgoneta.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="jLabel10"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Compacto">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Compacto"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_CompactoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Sedan">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sedan"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Descapotable">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Descapotable"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_DescapotableActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Familiar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Familiar"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Todoterreno">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Todoterreno"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_TodoterrenoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Familiar2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Familiar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_Familiar2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Mini_fur">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mini-furgoneta"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Furgoneta">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Furgoneta"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_FurgonetaActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel16" alignment="0" min="-2" pref="160" max="-2" attributes="0"/>
+                      <Component id="jLabel17" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabel12" min="-2" pref="160" max="-2" attributes="0"/>
+                              <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel13" alignment="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="jLabel18" alignment="1" min="-2" pref="158" max="-2" attributes="0"/>
+                          <Component id="jLabel14" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel19" alignment="1" min="-2" pref="158" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="Rb_Negro" alignment="0" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="Rb_Blanco" alignment="0" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="Rb_Gris_Osc" alignment="0" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="Rb_Gris" alignment="0" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="Rb_Rojo_Osc" alignment="0" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="Rb_Rojo" alignment="0" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="Rb_Azul_Osc" alignment="0" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="Rb_Azul" alignment="0" min="-2" pref="18" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel24" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
+                      <Component id="jLabel25" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
+                      <Component id="jLabel26" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
+                      <Component id="jLabel27" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
+                      <Component id="jLabel20" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
+                      <Component id="jLabel21" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
+                      <Component id="jLabel22" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
+                      <Component id="jLabel23" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="Rb_Rosa" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="Rb_Morado" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="Rb_Amarillo" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="Rb_Naranja" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="Rb_Beige" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="Rb_Marron" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="Rb_Verde" min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="Rb_Verde_Osc" min="-2" pref="18" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="76" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="jLabel12" max="32767" attributes="0"/>
+                                              <Component id="Rb_Negro" max="32767" attributes="0"/>
+                                              <Component id="jLabel24" max="32767" attributes="0"/>
+                                              <Component id="Rb_Verde_Osc" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="Rb_Blanco" min="-2" pref="30" max="-2" attributes="0"/>
+                                                      <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="Rb_Gris_Osc" pref="34" max="32767" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="Rb_Verde" min="-2" pref="33" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="Rb_Marron" min="-2" pref="33" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="36" pref="36" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="Rb_Gris" min="-2" pref="33" max="-2" attributes="0"/>
+                                      <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel27" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Rb_Beige" min="-2" pref="33" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Rb_Rojo_Osc" min="-2" pref="32" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                          <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Rb_Naranja" min="-2" pref="33" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel21" alignment="1" min="-2" pref="33" max="-2" attributes="0"/>
+                                              <Component id="Rb_Amarillo" alignment="1" min="-2" pref="33" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="Rb_Rojo" min="-2" pref="33" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Rb_Azul_Osc" min="-2" pref="33" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jLabel22" max="32767" attributes="0"/>
+                                      <Component id="Rb_Morado" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="Rb_Rosa" min="-2" pref="28" max="-2" attributes="0"/>
+                                      <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="Rb_Azul" min="-2" pref="33" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#xbf;De qu&#xe9; color es?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Negro.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Blanco.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel14">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Gris oscuro.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel15">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Gris.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel16">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Rojo oscuro.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel17">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Rojo.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel18">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Azul.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel19">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Azul claro.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Negro">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Negro"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_NegroActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Blanco">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Blanco"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_BlancoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Gris_Osc">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Gris oscuro"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_Gris_OscActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Gris">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Gris "/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_GrisActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Rojo_Osc">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rojo oscuro"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_Rojo_OscActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Rojo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rojo "/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_RojoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Azul_Osc">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Azul oscuro"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_Azul_OscActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Azul">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Azul "/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_AzulActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel24">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Verde oscuro.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel25">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Verde.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel26">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Marron.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel27">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Beige.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel20">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Naranja.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel21">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Amarillo.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel22">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Morado.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel23">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagenes/Rosa.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Verde_Osc">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Verde oscuro"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_Verde_OscActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Verde">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Verde "/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_VerdeActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Marron">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Marr&#xf3;n"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_MarronActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Beige">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Beige"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_BeigeActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Naranja">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Naranja"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_NaranjaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Amarillo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Amarillo"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_AmarilloActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Morado">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Morado"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_MoradoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Rb_Rosa">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rosa"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Rb_RosaActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JScrollBar" name="jScrollBar1">
+    </Component>
+  </SubComponents>
+</Form>
